@@ -1,0 +1,44 @@
+.main{
+    height: 100vh;
+    background-color: antiquewhite;
+    width: 100% !important;
+}
+
+.inner{
+    width: 100% !important;
+    height: auto;
+    padding: 5px;
+    
+}
+.list{
+    height: auto !important;
+    /* padding: 10px; */
+}
+.form-body1{
+    background-color: rgb(234, 238, 243) !important;
+}
+/* scrollbar styling */
+.list-con::-webkit-scrollbar {
+    width: 0 !important
+}
+@media only screen and (max-width: 770px) {
+    .list{
+       height: 100% !important;
+       overflow-y: auto;
+    }
+
+    .shift{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cat{
+        margin-top: 10px !important;
+    }
+
+    
+   
+}
+
+
+
